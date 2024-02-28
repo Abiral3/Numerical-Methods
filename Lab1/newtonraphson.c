@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#define EPS 0.01
+#define EPS 0.001
 
 float f(float x)
 {
