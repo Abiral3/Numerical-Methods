@@ -8,7 +8,7 @@ float f(float x)
 
 int main()
 {
-	int n;
+	int n,i;
 	float a, b, h, ict, sum = 0.0;
 
 	printf("\nGive lower limit of integration: ");
@@ -19,7 +19,7 @@ int main()
 	scanf("%f", &h);
 	
 	n = (b - a) / h;
-	for (int i = 1; i <= n; i++)
+	for ( i = 1; i <= n; i++)
 	{
 		sum += 2 * f(a + i * h);
 	}
